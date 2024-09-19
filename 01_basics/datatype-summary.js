@@ -28,3 +28,25 @@ console.log(typeof heros);
 console.log(typeof BigInt);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// =========================== memory =================================
+// stack (primitive) and Heap (Non-primitive)
+let name = "john";
+
+let anothername = name;
+anothername = "duo"
+
+console.log(name);
+console.log(anothername);
+
+let userOne = {
+    email : "a@gmail.com",
+    upi : "user@ybl",
+}
+
+let userTwo = userOne
+userTwo.email = "amp@gmail.com"
+console.log(userTwo.email);
+console.log(userOne.email);
