@@ -44,4 +44,4 @@ console.log(Object.keys(tinderUser));       // [ 'name', 'Id' ]
 console.log(Object.values(tinderUser));       // [ 'sammy', '123user' ]
 console.log(Object.entries(tinderUser));       // [ [ 'name', 'sammy' ], [ 'Id', '123user' ] ]
 
-console.log(tinderUser.hasOwnProperty('name'));     // true
+console.log(tinderUser.hasOwnProperty('Id'));     // true
